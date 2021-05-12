@@ -1,0 +1,30 @@
+.body{
+    margin: 30px 30px 0px 30px;
+
+    h1{
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 4em;
+    }
+    .services{
+        h2{
+            font-family: 'Anton', sans-serif;
+            font-size: 2.5em;
+        }
+        
+        .service-group{
+            
+            .uk-width{
+                .icon{
+                    margin-left: 114px;
+                }
+                .title{
+                    h4{
+                        font-family: 'Anton', sans-serif;
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
