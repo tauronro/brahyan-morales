@@ -8,7 +8,9 @@ import { BodyComponent } from './home/body/body.component';
 import { ContacComponent } from './home/contac/contac.component';
 import { InfoComponent } from './home/info/info.component';
 import { StudiesComponent } from './home/studies/studies.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,14 @@ import { StudiesComponent } from './home/studies/studies.component';
     ContacComponent,
     InfoComponent,
     StudiesComponent,
-    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    MatIconModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
