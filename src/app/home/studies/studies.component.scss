@@ -7,20 +7,14 @@
     font-size: 4em;
   }
   
-  .uk-grid {
-    margin-left: 0px;
-  }
-
-  .resumen {
-    margin: 30px;
-  }
+  
 
   .services {
     .icon-title {
       .title {
         font-family: "Anton", sans-serif;
         font-size: 2em;
-        color: #333;
+        
         span {
           margin-right: 20px;
         }
@@ -28,15 +22,11 @@
     }
 
     .service-group {
-      .uk-container {
-        margin: 25px;
-      }
-
       .width {
         h2.title {
           font-family: "Anton", sans-serif;
           font-size: 1.5em;
-          color: #333;
+         
         }
       }
     }

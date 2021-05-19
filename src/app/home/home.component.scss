@@ -1,6 +1,6 @@
 .layout {
   .uk-list {
-    margin-bottom: 30px;
+    
     li {
       padding: 20px;
 
@@ -8,42 +8,24 @@
         text-decoration: none;
         float: left;
 
-        .active * {
+        .active{
           color: #6e86ff;
         }
 
         mat-icon {
           float: left;
-          margin-right: 15px;
+         
         }
       }
     }
   }
 }
 
-.menu {
-  border: 1px solid black;
-  background-color: black;
 
-  .list {
-    .icons {
-      * {
-        color: #eee;
-      }
-
-      .active {
-        color: #6e86ff;
-      }
-    }
-  }
-}
-.content {
-  height: 450px;
-}
 .image-content {
   position: relative;
-  top: -40px;
-  height: 530px;
+  top: -10px;
+  height: 479px;
   background-image: url(../../assets/img/fotoperfilfrontal.png);
   background-repeat: no-repeat;
   background-position: center;
