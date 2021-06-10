@@ -1,6 +1,5 @@
 .layout {
-  .uk-list {
-    
+  .list {
     li {
       padding: 20px;
 
@@ -8,13 +7,12 @@
         text-decoration: none;
         float: left;
 
-        .active{
+        &.active {
           color: #6e86ff;
         }
 
         mat-icon {
           float: left;
-         
         }
       }
     }
